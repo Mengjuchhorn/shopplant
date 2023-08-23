@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+.box-header{
+    height: 100vh;
+    background-image: url(img/pic-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: -333322;
+}
+.box-header .box-pop{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+.box-header .box-pop .navbars{
+    width: 100%;
+    height: 50px;
+    /* background-color: blue; */
+    padding: 0;
+}
+.box-header .box-pop .navbars .box-logo h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.box-header .box-pop .navbars .box-icon ul{
+    display: flex;
+    float: right;
+    list-style: none;   
+}
+.box-header .box-pop .navbars .box-icon ul li{
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.box-header .box-pop .navbars .box-icon ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+/* ===============================[center-text]================== */
+.box-header .box-pop .center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+}
+.box-header .box-pop .center p{
+    color: white;
+    font-size: 25px;
+}
+.box-header .box-pop .center h1{
+    color: white;
+    font-size: 50px;
+}
+.box-header .box-pop .center button{
+    background-color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+/* ===============================[container-fluid box-menu]================== */
+.box-menu{
+  background-color:#ffff;  
+  width: 100%;
+  /* height: 500px; */
+}
+.box-menu .menu{
+    width: 100%;
+    background-color:#ffff;
+}
+.box-menu .menu .text-menu1 h1 {
+    color: black;
+}
+.box-menu .menu .text-menu2 button{
+    background-color: rgb(33, 167, 60);
+    display: flex;
+    float: right;
+    font-size: 30px;
+}
+/* ===============================[container-flui box-story]================== */
+.box-menu .box-story .button-story button{
+    background-color: rgb(33, 167, 60);
+    font-size: 25px;
+}
+.box-menu .Customers{
+    width: 100%;
+    /* background-color: red; */
+    /* height: 600px; */
+}
+.box-menu .Customers h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.box-menu .Customers .box-Customers .pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.box-menu .Customers .box-Customers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* ===============================[container-flui box-footder]================== */
+.box-menu .box-footder{
+    height: 80vh;
+    background-image: url(img/footder-green.jpg);
+    padding: 0;
+}
+.box-opo{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-opo h1 {
+    color: white;
+}
+.box-opo p{
+    color: white; 
+}
+.box-opo h5{
+    color: white; 
+}
+.box-opo button{
+    background-color: #ffff;
+    font-size: 20px;
+}
